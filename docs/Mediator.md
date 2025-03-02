@@ -13,8 +13,11 @@ Resumindo, este modelo tem como objetivo usar um objeto para administrar a comun
 
 Existem ocorrencia de erros por causa da complexificação excessiva de forma frequente conforme a aplicação vai evoluindo, principalemte quando não é implementado um padrão de projeto. Por exemplo, é comum que as aplicações que não tenham esses padrões terem erros em virtude da quantidade absurda de objetos ligados entre si, tornando suas modificações complexas. Se um objeto sofre uma modifcação, há uma grande chance de isso afetar outros objetos, tendo como consequencia o aumento do tempo requerido para analisar e modificar os objetos afetados, sendo esta superior ao tempo requerido para modificação.  
 
+![](https://github.com/YuuyaOkatani/Design-Patterns-Comportamental-Examples/blob/main/docs/images/Mediator.png)
 
 Desse modo, é de suma importancia solucionar esta problemática com o uso do padrão Mediator
+
+
 
 **Solução** 
 
