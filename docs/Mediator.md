@@ -1,7 +1,7 @@
 # O que é
 
 
-É um padrão de porjeto que faz parte do gurpo dos comportamentais, que permite que reduza a quantidade de dependencias caóticas entre os objetos. Por exemplo: se um objeto estiver ligado com outro, e mais outro, e assim por diante, a codifcação se tornaria complexo demais da realizar manutenção. Uma modifcação de uma classe poderia geral inúmeros problemas, dificultando a sua melhoria. 
+É um padrão de projeto que faz parte do gurpo dos comportamentais, que permite que reduza a quantidade de dependencias caóticas entre os objetos. Por exemplo: se um objeto estiver ligado com outro, e mais outro, e assim por diante, a codifcação se tornaria complexo demais da realizar manutenção. Uma modifcação de uma classe poderia geral inúmeros problemas, dificultando a sua melhoria. 
 
 Portanto, este padrão visa simplifcar a comunicação entre os objetos, adicionando um mediator entre elas, sendo responsável por administrar a comunicação entre elas. É como se fosse um curso online onde os alunos não poderão contactar pessoalmente, mas poderá se comunicar atráves da plataforma do curso. Outro exemplo seria a aba de comentários de redes sociais. 
 
