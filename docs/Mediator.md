@@ -112,6 +112,8 @@ public class MediatorPatternExample {
 }
 
 ```
+
+## Diagrama para melhor entendimento
 ![Mediator drawio](https://github.com/user-attachments/assets/74528533-5387-4481-825f-c4b0ffb82a18)
 
 
