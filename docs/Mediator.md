@@ -23,6 +23,8 @@ Desse modo, é de suma importancia solucionar esta problemática com o uso do pa
 
 Como solução, ao invés de criar objetos e conecta-los de forma desordenada, é válido criar um objeto Mediator, que torna os objetos independentes um ao outro. Em outras palavras, quando um objeto é acionado para se comunicar com os outros, ele envia uma mensagem através do objeto Mediator, e este Mediator direciona esta para o destinatário. 
 
+![Mediator2](https://github.com/user-attachments/assets/290e7793-0bc5-4995-b059-c16180da2cc9)
+
 ## Código
 
 Este código serve como exemplo para mostrar este conceito de forma prática. No código, o ChatRoom herda os métodos do ChatMediator, enquanto a classe abstrata User agrega o ChatRoom, instanciada pela ChatUser. 
