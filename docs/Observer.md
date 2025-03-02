@@ -8,12 +8,16 @@ Supondo que uma pessoa está interessada em um novo celular, e ela vá a uma loj
 E volta para loja um tempo depois, mas não a encontra, e fica neste vai e volta. 
 
 Outro problema é de que, se uma loja utiliza um sistema de notificação que notifica até usuários não interessados (spam), poderá ter a chance de perder mais clientes do que conquista-las, irritando-as. 
+![Observer](https://github.com/user-attachments/assets/31a3d59a-9a6e-49a4-ad55-ab6df81a870a)
 
 ## Solução
 
 Para evitar despedício de tempo dos clientes e a loja aumentar os mesmos, seria uma solução a implementação deste padrão, cadastrando seus clientes (Subscribers) na publicadora (Publisher). Dessa forma, a loja poderá notificar somente os clientes que estão interessados. 
 
+![Observer2](https://github.com/user-attachments/assets/19cd9a98-bdc2-400f-8cf9-d2dd199f8711)
+
 Ademais, este padrão pode ser altamente customizável, permitindo os desenvolvedores até adiconar métodos que notificam os inscritos com um interesse específico. 
+
 
 ## Código 
 
@@ -98,5 +102,5 @@ public class Main {
         store.setNewProduct("Samsung Galaxy S25 - Promoção!");
     }
 }
-
+![Observer drawio (1)](https://github.com/user-attachments/assets/77838ce6-b831-4047-957e-ec392cecc85a)
 
