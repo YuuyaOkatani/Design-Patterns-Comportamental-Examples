@@ -103,5 +103,6 @@ public class Main {
     }
 }
 ```
+## Diagrama para melhor entendimento
 ![Observer drawio (1)](https://github.com/user-attachments/assets/77838ce6-b831-4047-957e-ec392cecc85a)
 
