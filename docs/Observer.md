@@ -102,5 +102,6 @@ public class Main {
         store.setNewProduct("Samsung Galaxy S25 - Promoção!");
     }
 }
+```
 ![Observer drawio (1)](https://github.com/user-attachments/assets/77838ce6-b831-4047-957e-ec392cecc85a)
 
