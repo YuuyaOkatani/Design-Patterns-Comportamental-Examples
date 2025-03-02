@@ -31,7 +31,9 @@ Este código serve como exemplo para mostrar este conceito de forma prática. No
 Dessa forma, para um usuário enviar uma mensagem, ele passa por ChatRoom, que usa os métodos do ChatMediator modifcados, e todos usuarios receberão a mensagem.
 
 
-`import java.util.ArrayList;
+```
+
+import java.util.ArrayList;
 import java.util.List;
 
 // Interface Mediator
@@ -108,5 +110,6 @@ public class MediatorPatternExample {
         bob.sendMessage("Olá, Alice!");
     }
 }
-`
+
+```
 
