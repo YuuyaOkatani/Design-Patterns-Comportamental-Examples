@@ -1,5 +1,5 @@
 ## O que é
---- 
+
 
 É um padrão de porjeto que faz parte do gurpo dos comportamentais, que permite que reduza a quantidade de dependencias caóticas entre os objetos. Por exemplo: se um objeto estiver ligado com outro, e mais outro, e assim por diante, a codifcação se tornaria complexo demais da realizar manutenção. Uma modifcação de uma classe poderia geral inúmeros problemas, dificultando a sua melhoria. 
 
@@ -7,9 +7,9 @@ Portanto, este padrão visa simplifcar a comunicação entre os objetos, adicion
 
 Resumindo, este modelo tem como objetivo usar um objeto para administrar a comunicação entre objetos, tornando a aplicação mais dinamica e eficiente e diminuindo a comunicação direta entre objetos. 
 
----
 
-**Problema** 
+
+#**Problema** 
 
 Existem ocorrencia de erros por causa da complexificação excessiva de forma frequente conforme a aplicação vai evoluindo, principalemte quando não é implementado um padrão de projeto. Por exemplo, é comum que as aplicações que não tenham esses padrões terem erros em virtude da quantidade absurda de objetos ligados entre si, tornando suas modificações complexas. Se um objeto sofre uma modifcação, há uma grande chance de isso afetar outros objetos, tendo como consequencia o aumento do tempo requerido para analisar e modificar os objetos afetados, sendo esta superior ao tempo requerido para modificação.  
 
