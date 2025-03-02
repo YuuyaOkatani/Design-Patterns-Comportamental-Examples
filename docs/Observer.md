@@ -20,7 +20,7 @@ Ademais, este padrão pode ser altamente customizável, permitindo os desenvolve
 
 
 ## Código 
-Este código demonstra a aplicação deste padrão no mundo real. No código, o objeto CellPhoneStore irá herdar métodos (polimorfismo) da interface Publisher, sendo agregada por usuários que estão interessados (Subscribers), sendo estes criados por concreteSubscribers
+Este código demonstra a aplicação deste padrão no mundo real. No código, o objeto CellPhoneStore irá herdar métodos (polimorfismo) da interface Publisher, sendo agregada por usuários que estão interessados (Subscribers), sendo estes criados por concreteSubscribers. A loja, com seu método "notifySubscribers", irá notificar os inscritos. 
 ```java
 import java.util.ArrayList;
 import java.util.List;
