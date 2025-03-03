@@ -148,3 +148,5 @@ public class TesteState {
 }
 
 ```
+## Diagrama para melhor entendimento
+![State drawio](https://github.com/user-attachments/assets/fc0ca8de-6d85-49bb-adb0-015084bff85c)
