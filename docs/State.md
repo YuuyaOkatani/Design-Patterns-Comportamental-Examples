@@ -66,6 +66,7 @@ Para descomplica-la e resolver este problema, é pertinente o uso deste padrão,
 
 ## Código 
 
+No código, o objeto pode mudar de comportamento conforme a mudança de cor, utilizando os métodos do próprio objeto Cor
 ```java
 
 // Interface para os estados de cor
